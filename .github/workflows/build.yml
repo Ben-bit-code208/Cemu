@@ -1,6 +1,7 @@
 name: Build Cemu
 
 on:
+trigger:
   workflow_call:
     inputs:
       next_version_major:
